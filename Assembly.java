@@ -37,7 +37,7 @@ public class Assembly{
 		ArrayList<Byte> MemoryBytes = new ArrayList<Byte>();
         try{
 			BufferedReader br = new BufferedReader(new FileReader(path.toString()));
-			BufferedWriter bw = new BufferedWriter(new FileWriter(path.toString().replace(".txt", "New.txt"), true));	//BW must close or flush.
+			BufferedWriter bw = new BufferedWriter(new FileWriter(path.toString().replace(".txt", "New.txt"), false));	//BW must close or flush.
 			System.out.println("\nReading " + path.toString() + " files...\n");
 			String line = br.readLine();
 			int z = 512;
@@ -55,12 +55,19 @@ public class Assembly{
 					line = br.readLine();
 				}
 				while(line.substring(0,1).equals("#")){
+					System.out.println("masuk ke #");
 					bw.write(line+System.lineSeparator());
 					line = br.readLine();
 				}
 				String notes = "";
 				if(line.length()>4){
-					notes = line.substring(4, line.length());
+					int indeks = line.indexOf(";");
+					if(indeks!=-1){
+						notes = line.substring(line.indexOf(";"), line.length());
+					}
+					else{
+						notes = "";
+					}
 				}
 				String b1 = line.substring(0,2);
 				String b2 = line.substring(2,4);
