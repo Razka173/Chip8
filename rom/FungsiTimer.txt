@@ -1,0 +1,11 @@
+6EFF	;waktu
+1NNN	;jump kebawah fungsi
+
+;Fungsi timer
+FE15	;set timer dari VE
+FE07	;ngambil angka timer masukin ke VE
+3E00
+1NNN	;jump ke FE07
+00EE	;return from a subroutine
+
+2NNN	;jump ke adress fungsi

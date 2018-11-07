@@ -1,0 +1,72 @@
+600A 0000 Store number 0x0A in register V0
+6505 0002 Store number 0x05 in register V5
+660A 0004 Store number 0x0A in register V6
+670F 0006 Store number 0x0F in register V7
+6814 0008 Store number 0x14 in register V8
+6101 000A Store number 0x01 in register V1
+6201 000C Store number 0x01 in register V2
+6301 000E Store number 0x01 in register V3
+6401 0010 Store number 0x01 in register V4
+600A 0012 Store number 0x0A in register V0
+A278 0014 Store memory address 278 in register I
+D056 0016 Draw a sprite at position V0, V5 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+700A 0018 Add the value 0x0A to register V0
+A27E 001A Store memory address 27E in register I
+D066 001C Draw a sprite at position V0, V6 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+700A 001E Add the value 0x0A to register V0
+A284 0020 Store memory address 284 in register I
+D076 0022 Draw a sprite at position V0, V7 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+700A 0024 Add the value 0x0A to register V0
+A28A 0026 Store memory address 28A in register I
+D086 0028 Draw a sprite at position V0, V8 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+6A03 002A Store number 0x03 in register VA
+FA15 002C Unknown command
+600A 002E Store number 0x0A in register V0
+A278 0030 Store memory address 278 in register I
+D056 0032 Draw a sprite at position V0, V5 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+4514 0034 Skip the following instruction if the value of register V5 is not equal to 0x14
+61FF 0036 Store number 0xFF in register V1
+4501 0038 Skip the following instruction if the value of register V5 is not equal to 0x01
+6101 003A Store number 0x01 in register V1
+8514 003C Add the value of register VY to register VX. Set VF to 01 if a carry occurs. Set VF to 00 if a carry does not occur
+D056 003E Draw a sprite at position V0, V5 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+700A 0040 Add the value 0x0A to register V0
+A27E 0042 Store memory address 27E in register I
+D066 0044 Draw a sprite at position V0, V6 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+4614 0046 Skip the following instruction if the value of register V6 is not equal to 0x14
+62FF 0048 Store number 0xFF in register V2
+4601 004A Skip the following instruction if the value of register V6 is not equal to 0x01
+6201 004C Store number 0x01 in register V2
+8624 004E Add the value of register VY to register VX. Set VF to 01 if a carry occurs. Set VF to 00 if a carry does not occur
+D066 0050 Draw a sprite at position V0, V6 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+700A 0052 Add the value 0x0A to register V0
+A284 0054 Store memory address 284 in register I
+D076 0056 Draw a sprite at position V0, V7 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+4714 0058 Skip the following instruction if the value of register V7 is not equal to 0x14
+63FF 005A Store number 0xFF in register V3
+4701 005C Skip the following instruction if the value of register V7 is not equal to 0x01
+6301 005E Store number 0x01 in register V3
+8734 0060 Add the value of register VY to register VX. Set VF to 01 if a carry occurs. Set VF to 00 if a carry does not occur
+D076 0062 Draw a sprite at position V0, V7 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+700A 0064 Add the value 0x0A to register V0
+A28A 0066 Store memory address 28A in register I
+D086 0068 Draw a sprite at position V0, V8 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+4814 006A Skip the following instruction if the value of register V8 is not equal to 0x14
+64FF 006C Store number 0xFF in register V4
+4801 006E Skip the following instruction if the value of register V8 is not equal to 0x01
+6401 0070 Store number 0x01 in register V4
+8844 0072 Add the value of register VY to register VX. Set VF to 01 if a carry occurs. Set VF to 00 if a carry does not occur
+D086 0074 Draw a sprite at position V0, V8 with 6 bytes of sprite data starting at the address stored in I Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+122A 0076 Jump to 0x22A
+7c10 0078 huruf
+1010 007A 
+1010 007C 
+7c44 007E huruf
+447c 0080
+4444 0082 
+7844 0084 huruf
+4478 0086 
+4844 0088 
+7c44 008A huruf
+447c 008C
+4444 008E 

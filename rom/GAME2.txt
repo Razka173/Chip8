@@ -1,0 +1,15 @@
+00E0 
+6000	;koordinat karakter
+6100
+A216 
+D016	;draw 
+F60A
+D016	;draw
+7001	;V0 ditambah 01 
+1206	;backup 00E0
+1206 
+0000
+----
+3C3C 
+183C 
+1818
