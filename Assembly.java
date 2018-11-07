@@ -47,15 +47,22 @@ public class Assembly{
 					line = br.readLine();
 				}
 				while(line.substring(0,1).equals("-")){
+					//System.out.println("masuk ke -");
 					bw.write(line+System.lineSeparator());
 					line = br.readLine();
 				}
 				while(line.substring(0,1).equals(";")){
+					//System.out.println("masuk ke ;");
 					bw.write(line+System.lineSeparator());
 					line = br.readLine();
 				}
 				while(line.substring(0,1).equals("#")){
-					System.out.println("masuk ke #");
+					//System.out.println("masuk ke #");
+					bw.write(line+System.lineSeparator());
+					line = br.readLine();
+				}
+				while(line.substring(0,1).equals(" ")){
+					//System.out.println("masuk ke #");
 					bw.write(line+System.lineSeparator());
 					line = br.readLine();
 				}
